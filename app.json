@@ -1,0 +1,31 @@
+{
+  "name": "v2-Web",
+  "description": "v2-Web",
+  "keywords": [
+    "v2-Web"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "要部署的协议vmess或vless,请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "UUID充当配置的路径和账号密码,请妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    },
+        "vindex": {
+      "description": "伪装网站，填写一个真实网站地址",
+      "value": "",
+      "required": false
+    }
+   
+  },
+  "website": "https://github.com/romoss-ltree/v2-Web",
+  "repository": "https://github.com/romoss-ltree/v2-Web",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
